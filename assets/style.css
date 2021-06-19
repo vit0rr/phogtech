@@ -1,0 +1,27 @@
+.centerHome {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: translate(-50%, -50% );
+    width: 100%;
+}
+
+#linkHome {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#buttonHome {
+    background-color: #FFAD00;
+    color: white;
+    border: 0px solid;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.test {
+    border: 1px solid red;
+    display: flex;
+}
