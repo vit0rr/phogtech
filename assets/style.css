@@ -52,11 +52,11 @@
 }
 
 .shadowImgLeft {
-    box-shadow: -1px 2px 6px 0px #FFAD00;
+    box-shadow: -1px 2px 3px 0px black;
 }
 
 .shadowImgRight {
-    box-shadow: 1px 2px 6px 0px #FFAD00;
+    box-shadow: 1px 2px 3px 0px black;
 }
 
 .imgRadius{
@@ -65,7 +65,15 @@
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
-#imgHomeResponsive {
+    #services {
+        padding: 0px;
+    }
+
+    #projects {
+        padding: 0px;
+    }
+
+    #imgHomeResponsive {
     display: none;
 }
 
@@ -86,6 +94,18 @@
 .centerImg {
     text-align: center;
     margin-bottom: 10px;
+}
+
+body {
+    border-left: 5px solid #FFAD00;
+}
+
+#responsiveImgServices {
+    box-shadow: 0px 0px 0px;
+}
+
+#responsiveImgProjects {
+    box-shadow: 0px 0px 0px ;
 }
  }
 
