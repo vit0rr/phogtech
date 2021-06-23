@@ -1,0 +1,83 @@
+#GridProjects {
+    margin-top: 20px;
+}
+
+#titleServicos {
+    margin-top: 10px;
+    text-decoration: underline #FFAD00;
+}
+
+#services {
+    padding: 70px;
+}
+
+#projects {
+    padding: 70px;
+}
+
+.centralizar {
+    text-align: center;
+}
+
+/*Landingpage*/
+.centerHome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+    width: 100%;
+}
+
+#btnConhecer {
+    background-color: #FFAD00;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+}
+
+.underlineAmarelo {
+    text-decoration: underline #FFAD00;
+}
+
+/*navbar*/
+ul > li > a:hover{
+    text-decoration: underline #FFAD00 2px;
+    transition: 0.3s;
+    transform: translateX(0) scale(1.1);
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    #services {
+        padding: 0px;
+    }
+
+    #projects {
+        padding: 0px;
+    }
+
+body {
+    border-left: 5px solid #FFAD00;
+}
+
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /*nhe*/
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /*nhe*/
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /*nhe*/
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    /*nhe*/
+ }
