@@ -3,12 +3,12 @@
 }
 
 #titleServicos {
-    margin-top: 10px;
     text-decoration: underline #FFAD00;
 }
 
 #services {
     padding: 70px;
+    background-color: #ffedc7;
 }
 
 #projects {
@@ -50,26 +50,51 @@ ul > li > a:hover{
 @media (max-width: 575.98px) { 
     #services {
         padding: 0px;
+        background-color: white;
     }
 
     #projects {
         padding: 0px;
+        background-color: white;
     }
 
-body {
-    border-left: 5px solid #FFAD00;
-}
-
+    #responsiveSvg {
+        display: none;
+    }
  }
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
-    /*nhe*/
+    #projects {
+        padding: 0px;
+        background-color: white;
+    }
+
+    #services {
+        padding: 0px;
+        background-color: white;
+    }
+
+    #responsiveSvg {
+        display: none;
+    }
  }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
-    /*nhe*/
+    #projects {
+        padding: 0px;
+        background-color: white;
+    }
+
+    #services {
+        padding: 0px;
+        background-color: white;
+    }
+
+    #responsiveSvg {
+        display: none;
+    }
  }
 
 /* Large devices (desktops, 992px and up)*/
