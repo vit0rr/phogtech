@@ -1,3 +1,10 @@
+html, body {
+    min-height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
 #GridProjects {
     margin-top: 20px;
 }
@@ -50,6 +57,33 @@ nav {
     border-bottom: 2px solid #FFAD00;
 }
 
+/*Footer*/
+footer {
+    border: 1px solid red;
+    background-color: #FFAD00;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+}
+
+#footerIcons > a > i{
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+}
+
+div.row > div.col-sm > span#footerCopy {
+    font-weight: 500;
+}
+
+div.row > div.col-sm > span#devPor {
+    font-weight: 500;
+}
+
+div.row > div.col-sm > span#devName {
+    text-decoration: underline;
+}
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
     #services {
