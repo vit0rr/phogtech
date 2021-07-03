@@ -70,6 +70,10 @@ nav {
     background-color: #e0d2bd79;
 }
 
+div.container > div#projects > div#GridProjects > div.row > div.col-sm-6 {
+    margin-top: 5px;
+}
+
 /*Footer*/
 footer {
     background-color: #FFAD00;
