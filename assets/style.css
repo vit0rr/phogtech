@@ -61,6 +61,15 @@ nav {
     height: 100vh;
 }
 
+#contact {
+    border-radius: 5px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0d2bd79;
+}
+
 /*Footer*/
 footer {
     background-color: #FFAD00;
@@ -87,6 +96,11 @@ div.row > div.col-sm > span#devPor {
 div.row > div.col-sm > span#devName {
     text-decoration: underline;
 }
+
+#borderContact {
+    border-right: 1px solid black;
+}
+
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
     #services {
@@ -101,6 +115,10 @@ div.row > div.col-sm > span#devName {
 
     #responsiveSvg {
         display: none;
+    }
+
+    #borderContact {
+        border-right: 0px solid black;
     }
  }
 
@@ -119,6 +137,10 @@ div.row > div.col-sm > span#devName {
     #responsiveSvg {
         display: none;
     }
+
+    #borderContact {
+        border-right: 0px solid black;
+    }
  }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -135,6 +157,10 @@ div.row > div.col-sm > span#devName {
 
     #responsiveSvg {
         display: none;
+    }
+
+    #borderContact {
+        border-right: 0px solid black;
     }
  }
 
