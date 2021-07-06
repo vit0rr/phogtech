@@ -70,6 +70,10 @@ nav {
     background-color: #e0d2bd79;
 }
 
+div.row > div.col-md-8 > p > a {
+    text-decoration: underline #FFAD00 2px;
+}
+
 div.container > div#projects > div#GridProjects > div.row > div.col-sm-6 {
     margin-top: 5px;
 }
