@@ -13,6 +13,7 @@ export default function Home() {
     crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"></link>
+        <link rel="shortcut icon" href="https://raw.githubusercontent.com/vit0rr/phogtech/32491c044ce4fe189378b41eb391d30cfd2fee02/assets/img/logoPhogSvg.svg" type="image/x-icon"></link>
     <title>Phog Tech - Home</title>
 </Head>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
