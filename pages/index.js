@@ -31,7 +31,7 @@ export default function Home() {
             <a className="nav-link" href="/projects-services">Serviços - Projetos</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="./contato.html">Contato</a>
+            <a className="nav-link" href="./contato">Contato</a>
           </li>
         </ul>
       </div>
