@@ -1,5 +1,4 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
-import 'bootstrap/dist/css/bootstrap.min.css';
 const GlobalStyle = createGlobalStyle`
   html, body {
     min-height: 100%;
@@ -33,6 +32,19 @@ p {
 
 .centralizar {
     text-align: center;
+}
+
+#responsiveSvg {
+  color: white;
+  background-color: #ffedc7;
+}
+
+#imgKisy{
+  border-radius: 5px;
+}
+
+#imgInfancia {
+  border-radius: 5px;
 }
 
 /*Landingpage*/
