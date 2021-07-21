@@ -17,7 +17,7 @@ export default function Home() {
 </Head>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="./index.html"><img src="https://raw.githubusercontent.com/vit0rr/phogtech/bcdd673ea4632befda48b5c86c2494dffe4b6a29/assets/img/logoPhogSvg.svg" alt="logo" width="65px"/>
+            <a class="navbar-brand" href="/"><img src="https://raw.githubusercontent.com/vit0rr/phogtech/bcdd673ea4632befda48b5c86c2494dffe4b6a29/assets/img/logoPhogSvg.svg" alt="logo" width="65px"/>
                 Phog Tech</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
