@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import Head from 'next/head'
 import Image from 'next/image'
 import devHomepage from '../assets/img/devHomepage.svg'
+import Link from 'next/link'
 
 export default function Home() {
   
@@ -18,7 +19,9 @@ export default function Home() {
 </Head>
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div className="container">
-      <a className="navbar-brand" href="/"><img src="https://raw.githubusercontent.com/vit0rr/phogtech/c73b17ffe2b84060b10e71f28df636e5c2d3b061/assets/img/logoPhogSvg.svg" alt="logo" width="65px"/> Phog Tech</a>
+      <Link href="/">
+      <a className="navbar-brand"><img src="https://raw.githubusercontent.com/vit0rr/phogtech/c73b17ffe2b84060b10e71f28df636e5c2d3b061/assets/img/logoPhogSvg.svg" alt="logo" width="65px"/> Phog Tech</a>
+      </Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
@@ -26,13 +29,19 @@ export default function Home() {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#">Home</a>
+            <Link href="/">
+            <a className="nav-link active" aria-current="page">Home</a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/projects-services">Serviços - Projetos</a>
+            <Link href="/projects-services">
+             <a className="nav-link">Serviços - Projetos</a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="./contato">Contato</a>
+            <Link href="./contato">
+              <a className="nav-link">Contato</a>
+            </Link>
           </li>
         </ul>
       </div>
