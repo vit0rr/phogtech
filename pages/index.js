@@ -56,9 +56,11 @@ export default function Home() {
             <p class="page-header-ui-text mb-5">Bem vindo a Phog Tech Solutions. Aqui, vamos te ajudar com o que
               precisa! Nossa equipe é especializada em desenvolvimento web. Somos uma boa escolha caso queira seu site
               funcionando com agilidade.</p>
-            <a class="btn btn-lg btn-primary fw-500 me-3" id="btnConhecer" href="./nos.html">
+            <Link href="/projects-services"> 
+            <a class="btn btn-lg btn-primary fw-500 me-3" id="btnConhecer">
               Conhecer
             </a>
+            </Link>
           </div>
           <div class="col-lg-6 d-none d-lg-block"><Image
               class="img-fluid" src={devHomepage}/></div>
