@@ -1,4 +1,8 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import Router from 'next/router'
+import Head from 'next/head'
+import NProgress from 'nprogress'
+
 const GlobalStyle = createGlobalStyle`
   html, body {
     min-height: 100%;
@@ -210,11 +214,21 @@ const theme = {
   },
 }
 
+Router.events.on('routeChangeStart', () => NProgress.start())
+Router.events.on('routeChangeComplete', () => NProgress.done())
+Router.events.on('routeChangeError', () => NProgress.done())
+
+NProgress.configure({ showSpinner: false })
+
 export default function App({ Component, pageProps }) {
   return (
     <>
       <GlobalStyle />
       <ThemeProvider theme={theme}>
+        <Head>
+            {/* Import CSS for nprogress */}
+            <link rel="stylesheet" type="text/css" href="/nprogress.css" />
+        </Head>
         <Component {...pageProps} />
       </ThemeProvider>
     </>
