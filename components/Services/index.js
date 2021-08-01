@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Services() {
     return (
         <>
@@ -16,7 +18,7 @@ export default function Services() {
                                 <li>Identidade Visual</li>
                             </ul>
                             <p>
-                                Para informações de contato clique <a href="/contato.html">aqui</a>
+                                Para informações de contato clique <Link href="/contato"><a>aqui</a></Link>
                             </p>
                         </div>
                         <div className="col-md-4 centerImg"><img src="https://raw.githubusercontent.com/vit0rr/phogtech/bcdd673ea4632befda48b5c86c2494dffe4b6a29/assets/img/services.svg" width="500px"
