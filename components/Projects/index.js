@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Projects(){
     return (
         <div id="projects">
@@ -33,6 +35,25 @@ export default function Projects(){
                                     <h5 className="card-title">Koisinhas da Kisy</h5>
                                     <p className="card-text">Construção de um e-commerce, manutenção de bugs e SEO.</p>
                                     <a className="btn btn-md btn-primary fw-500 me-3" id="btnConhecer" href="https://www.koisinhasdakisy.com.br/">
+                                        Conhecer
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                    <div className="card rounded-0">
+                        <div className="card-body">
+                            <div className="row">
+                                <div className="col-sm-6">
+                                    <img src="https://raw.githubusercontent.com/vit0rr/phogtech/main/assets/img/portfolio/musadamente.png" alt="" className="img-fluid" /> <br />
+                                    <a>
+                                    </a>
+                                </div>
+                                <div className="col-sm-6">
+                                    <h5 className="card-title">Musa da Mente</h5>
+                                    <p className="card-text">Desenvolvimento de um teste de personalidade. Para mais informações <Link href="https://github.com/Phog-Tech/musa-da-mente"><a>clique aqui</a></Link></p>
+                                    <a className="btn btn-md btn-primary fw-500 me-3" id="btnConhecer" href="https://musadamente-com-br.umbler.net/">
                                         Conhecer
                                     </a>
                                 </div>
