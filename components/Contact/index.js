@@ -1,3 +1,6 @@
+import DeliveryAddress from '../../assets/img/delivery_address.svg'
+import Image from 'next/image'
+
 export default function Contact(){
     return (
         <>
@@ -22,8 +25,7 @@ export default function Contact(){
                                     <li>Vitor Souza <a href="mailto:vi.souza.almeida@protonmail.com">vi.souza.almeida@protonmail.com</a></li>
                                 </ul>
                             </div>
-                            <div className="col-lg-6 d-none d-lg-block"><img
-                                className="img-fluid" src="https://raw.githubusercontent.com/vit0rr/phogtech/de9b21d0d14149bd148740452add474699d6b3d1/assets/img/delivery_address.svg" /></div>
+                            <div className="col-lg-6 d-none d-lg-block"><Image src={DeliveryAddress}/></div>
                         </div>
                     </div>
                 </div>

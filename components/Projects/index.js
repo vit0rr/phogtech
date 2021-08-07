@@ -1,4 +1,9 @@
 import Link from 'next/link'
+import Image from 'next/image'
+import MakerLauch from '../../assets/img/maker_launch.svg'
+import Koisinhas from '../../assets/img/portfolio/koisinhasdakisy.png'
+import MusaDaMente from '../../assets/img/portfolio/musadamente.png'
+import BrilhoInfancia from '../../assets/img/portfolio/brilhodainfancia.png'
 
 export default function Projects(){
     return (
@@ -8,9 +13,7 @@ export default function Projects(){
             <div className="row">
                 <div className="row">
                     <div className="col-md-4 centerImg">
-                        <img src="https://raw.githubusercontent.com/vit0rr/phogtech/bcdd673ea4632befda48b5c86c2494dffe4b6a29/assets/img/projects.svg"
-                            className="d-none d-sm-block d-sm-none d-md-block img-fluid"
-                            width="300px" alt="" id="responsiveImgProjects" />
+                        <Image src={MakerLauch}/>
                     </div>
                     <div className="col-md-8"> <p>
                         Nosso time já realizou com sucesso o desenvolvimento de diversos websites
@@ -27,7 +30,7 @@ export default function Projects(){
                         <div className="card-body">
                             <div className="row">
                                 <div className="col-sm-6">
-                                    <img src="https://raw.githubusercontent.com/vit0rr/phogtech/main/assets/img/portfolio/koisinhasdakisy.png" alt="" className="img-fluid" /> <br />
+                                    <Image src={Koisinhas}/> <br />
                                     <a>
                                     </a>
                                 </div>
@@ -46,7 +49,7 @@ export default function Projects(){
                         <div className="card-body">
                             <div className="row">
                                 <div className="col-sm-6">
-                                    <img src="https://raw.githubusercontent.com/vit0rr/phogtech/main/assets/img/portfolio/musadamente.png" alt="" className="img-fluid" /> <br />
+                                    <Image src={MusaDaMente}/> <br />
                                     <a>
                                     </a>
                                 </div>
@@ -66,7 +69,7 @@ export default function Projects(){
                         <div className="card-body">
                             <div className="row">
                                 <div className="col-sm-6">
-                                    <img src="https://raw.githubusercontent.com/vit0rr/phogtech/main/assets/img/portfolio/brilhodainfancia.png" alt="" className="img-fluid" /> <br />
+                                    <Image src={BrilhoInfancia}/> <br />
                                     <a>
                                     </a>
                                 </div>
