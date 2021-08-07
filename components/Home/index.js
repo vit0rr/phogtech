@@ -14,7 +14,7 @@ export default function HomeIndex() {
                                 precisa! Nossa equipe é especializada em desenvolvimento web. Somos uma boa escolha caso queira seu site
                                 funcionando com agilidade.</p>
                             <Link href="/projects-services">
-                                <a className="btn btn-lg btn-primary fw-500 me-3" id="btnConhecer">
+                                <a className="btn-lg btn btn-warning" id="btnConhecer">
                                     Conhecer
                                 </a>
                             </Link>

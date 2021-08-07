@@ -67,6 +67,13 @@ p {
     border: 0px;
 }
 
+#btnConhecer:hover {
+    background-color: #db8c23;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+}
+
 .underlineAmarelo {
     text-decoration: underline #FFAD00;
 }
