@@ -7,7 +7,7 @@ export default function HeadContentHome() {
                 integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
                 crossorigin="anonymous"></script>
             <link async rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-                integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"></link>
+                integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" media="screen"></link>
             <title>Phog Tech - Home</title>
             <link rel="shortcut icon" href="https://raw.githubusercontent.com/vit0rr/phogtech/32491c044ce4fe189378b41eb391d30cfd2fee02/assets/img/logoPhogSvg.svg" type="image/x-icon"></link>
         </Head>
