@@ -13,7 +13,7 @@ export default function Projects(){
             <div className="row">
                 <div className="row">
                     <div className="col-md-4 centerImg">
-                        <Image src={MakerLauch}/>
+                        <div className="d-none d-sm-block d-sm-none d-md-block img-fluid"><Image src={MakerLauch}/></div>
                     </div>
                     <div className="col-md-8"> <p>
                         Nosso time já realizou com sucesso o desenvolvimento de diversos websites
@@ -49,7 +49,8 @@ export default function Projects(){
                         <div className="card-body">
                             <div className="row">
                                 <div className="col-sm-6">
-                                    <Image src={MusaDaMente}/> <br />
+                                    <Image src={MusaDaMente}/> 
+                                    <br />
                                     <a>
                                     </a>
                                 </div>
