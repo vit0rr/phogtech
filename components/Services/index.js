@@ -12,7 +12,7 @@ export default function Services() {
                             sistemas, oferecemos um leque de serviços para a sua empresa e e-commerce, com os frameworks e
                             plataformas mais modernas podemos realizar:
                         </p>
-                            <ul>
+                            <ul id="service-list">
                                 <li>Otimização e configuração de SEO</li>
                                 <li>Criação e Design de sites e E-commerce</li>
                                 <li>Identidade Visual</li>

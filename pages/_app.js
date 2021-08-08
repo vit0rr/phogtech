@@ -110,6 +110,10 @@ div.container > div#projects > div#GridProjects > div.row > div.col-sm-6 {
     margin-top: 5px;
 }
 
+#service-list {
+    font-size: 18px;
+}
+
 /*Footer*/
 footer {
     background-color: #FFAD00;
