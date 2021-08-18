@@ -14,6 +14,9 @@ Inicialmente a ideia era adquirir experiência e aprender novas coisas conforme 
 
 - O website foi desenvolvido usando ReactJS e NextJS.
 
+#### 🐱‍💻 Nossa organização
+Todos os projetos que realizamos - e que o cliente permitiu a publicação - está com o código fonte [aqui](https://github.com/Phog-Tech).
+
 #### 💭 Contribuição
 
 Caso tenha alguma ideia, correção etc, envie um fork do projeto seguindo [esse](https://www.conventionalcommits.org/pt-br/v1.0.0/) padrão.
