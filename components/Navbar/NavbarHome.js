@@ -2,10 +2,10 @@ import Link from 'next/link'
 
 export default function NavbarHome() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <nav className="navbar navbar-expand-lg navbar-light bg-navbar fixed-top">
             <div className="container">
                 <Link href="/">
-                    <a className="navbar-brand"><img src="https://raw.githubusercontent.com/vit0rr/phogtech/c73b17ffe2b84060b10e71f28df636e5c2d3b061/assets/img/logoPhogSvg.svg" alt="logo" width="65px" height="65px" /> Phog Tech</a>
+                    <a className="navbar-brand text-light"><img src="https://raw.githubusercontent.com/vit0rr/phogtech/main/assets/img/PhogLogo.png" alt="logo" width="65px" height="65px" /> Phog Tech</a>
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,17 +15,17 @@ export default function NavbarHome() {
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
                             <Link href="/">
-                                <a className="nav-link active" aria-current="page">Home</a>
+                                <a className="nav-link active text-light" aria-current="page">Home</a>
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link href="/projects-services">
-                                <a className="nav-link">Serviços - Projetos</a>
+                                <a className="nav-link text-light">Serviços - Projetos</a>
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link href="/contato">
-                                <a className="nav-link">Contato</a>
+                                <a className="nav-link text-light">Contato</a>
                             </Link>
                         </li>
                     </ul>

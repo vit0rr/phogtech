@@ -6,6 +6,7 @@ import NProgress from 'nprogress'
 const GlobalStyle = createGlobalStyle`
   html, body {
     min-height: 100%;
+    background-color: #011627;
 }
 
 body {
@@ -87,6 +88,10 @@ ul > li > a:hover{
 
 nav {
     border-bottom: 2px solid #FFAD00;
+}
+
+.bg-navbar {
+    background-color: #02233d;
 }
 
 #contatovH {
