@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function NavbarHome() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-navbar fixed-top">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-navbar fixed-top">
             <div className="container">
                 <Link href="/">
                     <a className="navbar-brand text-light"><img src="https://raw.githubusercontent.com/vit0rr/phogtech/main/assets/img/PhogLogo.png" alt="logo" width="65px" height="65px" /> Phog Tech</a>

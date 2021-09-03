@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import devHomepage from '../../assets/img/DevHome.svg'
+import devHomepage from '../../assets/img/Lost.svg'
 
 export default function HomeIndex() {
     return (
@@ -20,7 +20,7 @@ export default function HomeIndex() {
                             </Link>
                         </div>
                         <div className="col-lg-6 d-none d-lg-block"><Image
-                            className="img-fluid" src={devHomepage} /></div>
+                            className="img-fluid" width="450px" src={devHomepage} /></div>
                     </div>
                 </div>
             </div>
