@@ -5,29 +5,29 @@ import Koisinhas from '../../assets/img/portfolio/koisinhasdakisy.png'
 import MusaDaMente from '../../assets/img/portfolio/musadamente.png'
 import BrilhoInfancia from '../../assets/img/portfolio/brilhodainfancia.png'
 
-export default function Projects(){
+export default function Projects() {
     return (
         <div id="projects">
-        <h1 className="display-5 centralizar" id="titleServicos">Projetos</h1>
-        <div id="GridProjects">
-            <div className="row">
+            <h1 className="display-5 centralizar text-light" id="titleServicos">Projetos</h1>
+            <div id="GridProjects">
                 <div className="row">
-                    <div className="col-md-4 centerImg">
-                        <div className="d-none d-sm-block d-sm-none d-md-block img-fluid"><Image src={MakerLauch}/></div>
+                    <div className="row">
+                        <div className="col-md-4 centerImg">
+                            <div className="d-none d-sm-block d-sm-none d-md-block img-fluid"><Image src={MakerLauch} /></div>
+                        </div>
+                        <div className="col-md-8 text-light"> <p>
+                            Nosso time já realizou com sucesso o desenvolvimento de diversos websites
+                            e conseguiu indexa-los corretamente no Google trazendo mais visitantes e vendas para nossos
+                            clientes, a seguir vai uma lista e um portfólio dos trabalhos realizados pela nossa equipe.
+                        </p>
+                            <br /> <br />
+                        </div>
                     </div>
-                    <div className="col-md-8"> <p>
-                        Nosso time já realizou com sucesso o desenvolvimento de diversos websites
-                        e conseguiu indexa-los corretamente no Google trazendo mais visitantes e vendas para nossos
-                        clientes, a seguir vai uma lista e um portfólio dos trabalhos realizados pela nossa equipe.
-                    </p>
-                        <br /> <br />
-                    </div>
-                </div>
-            </div> <br />
-            <div className="row">
+                </div> <br />
+                {/* <div className="row">
                 <div className="col-sm-6">
-                    <div className="card rounded-0">
-                        <div className="card-body">
+                    <div className="card rounded-0 bg-dark">
+                        <div className="card-body text-light">
                             <div className="row">
                                 <div className="col-sm-6">
                                     <Image src={Koisinhas}/> <br />
@@ -45,8 +45,8 @@ export default function Projects(){
                         </div>
                     </div>
                     <br/>
-                    <div className="card rounded-0">
-                        <div className="card-body">
+                    <div className="card rounded-0 bg-dark">
+                        <div className="card-body text-light">
                             <div className="row">
                                 <div className="col-sm-6">
                                     <Image src={MusaDaMente}/> 
@@ -66,8 +66,8 @@ export default function Projects(){
                     </div>
                 </div>
                 <div className="col-sm-6">
-                    <div className="card rounded-0">
-                        <div className="card-body">
+                    <div className="card rounded-0 bg-dark">
+                        <div className="card-body text-light">
                             <div className="row">
                                 <div className="col-sm-6">
                                     <Image src={BrilhoInfancia}/> <br />
@@ -85,8 +85,28 @@ export default function Projects(){
                         </div>
                     </div>
                 </div>
+            </div> */}
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card bg-02233d text-light">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-warning">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card bg-02233d text-light">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-warning">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
     )
 }

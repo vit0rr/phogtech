@@ -27,8 +27,9 @@ p {
 }
 
 #services {
+    color: white;
     padding: 70px;
-    background-color: #ffedc7;
+    background-color: #16456b;
 }
 
 #projects {
@@ -40,8 +41,9 @@ p {
 }
 
 #responsiveSvg {
-  color: white;
-  background-color: #ffedc7;
+  color: #011627; 
+  //background-color: #16456b;
+ //border: 1px solid #011627;
 }
 
 #imgKisy{
@@ -105,6 +107,10 @@ nav {
     justify-content: center;
     align-items: center;
     background-color: #e0d2bd79;
+}
+
+.bg-02233d {
+    background-color: #02233d;
 }
 
 div.row > div.col-md-8 > p > a {

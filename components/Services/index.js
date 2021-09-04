@@ -18,7 +18,7 @@ export default function Services() {
                                 <li>Identidade Visual</li>
                             </ul>
                             <p>
-                                Para informações de contato clique <Link href="/contato"><a>aqui</a></Link>
+                                Para informações de contato clique <Link href="/contato"><a className="text-warning">aqui</a></Link>
                             </p>
                         </div>
                         <div className="col-md-4 centerImg"><img src="https://raw.githubusercontent.com/vit0rr/phogtech/bcdd673ea4632befda48b5c86c2494dffe4b6a29/assets/img/services.svg" width="500px"
@@ -29,7 +29,7 @@ export default function Services() {
                 </div>
             </div>
             <div id="responsiveSvg">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none"
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none"
                     fill="currentColor">
                     <path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path>
                 </svg>
