@@ -20,12 +20,12 @@ export default function NavbarHome() {
                         </li>
                         <li className="nav-item">
                             <Link href="/projects-services">
-                                <a className="nav-link text-light">Serviços - Projetos</a>
+                                <a className="nav-link">Serviços - Projetos</a>
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link href="/contato">
-                                <a className="nav-link text-light">Contato</a>
+                                <a className="nav-link">Contato</a>
                             </Link>
                         </li>
                     </ul>
