@@ -114,6 +114,10 @@ nav {
     background-color: #02233d;
 }
 
+.bg-0c5187 {
+    background-color: #0c5187;
+}
+
 div.row > div.col-md-8 > p > a {
     text-decoration: underline #FFAD00 2px;
 }
@@ -128,7 +132,8 @@ div.container > div#projects > div#GridProjects > div.row > div.col-sm-6 {
 
 /*Footer*/
 footer {
-    background-color: #FFAD00;
+    display: none;
+    background-color: #02233d;
     text-align: center;
     color: white;
     font-size: 17px;
@@ -160,13 +165,15 @@ div.row > div.col-sm > span#devName {
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
     #services {
-        padding: 0px;
-        background-color: white;
+        padding: 4px;
+        background-color: #02233d;
+        border-radius: 10px;
     }
 
     #projects {
-        padding: 0px;
-        background-color: white;
+        padding: 4px;
+        background-color: #02233d;
+        border-radius: 10px;
     }
 
     #responsiveSvg {
@@ -175,19 +182,25 @@ div.row > div.col-sm > span#devName {
 
     #borderContact {
         border-right: 0px solid black;
+    }
+
+    #paddingTopCards {
+        padding-top: 5px;
     }
  }
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
     #projects {
-        padding: 0px;
-        background-color: white;
+        padding: 4px;
+        background-color: #02233d;
+        border-radius: 10px;
     }
 
     #services {
-        padding: 0px;
-        background-color: white;
+        padding: 4px;
+        background-color: #02233d;
+        border-radius: 10px;
     }
 
     #responsiveSvg {
@@ -197,18 +210,24 @@ div.row > div.col-sm > span#devName {
     #borderContact {
         border-right: 0px solid black;
     }
+
+    #paddingTopCards {
+        padding-top: 5px;
+    }
  }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
     #projects {
-        padding: 0px;
-        background-color: white;
+        padding: 4px;
+        background-color: #02233d;
+        border-radius: 10px;
     }
 
     #services {
-        padding: 0px;
-        background-color: white;
+        padding: 4px;
+        background-color: #02233d;
+        border-radius: 10px;
     }
 
     #responsiveSvg {
