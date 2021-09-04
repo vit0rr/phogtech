@@ -101,12 +101,13 @@ nav {
 }
 
 #contact {
+    color: white;
     border-radius: 5px;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e0d2bd79;
+    background-color: #02233d;
 }
 
 .bg-02233d {
@@ -153,7 +154,7 @@ div.row > div.col-sm > span#devName {
 }
 
 #borderContact {
-    border-right: 1px solid black;
+    border-right: 1px solid white;
 }
 
 /* Extra small devices (portrait phones, less than 576px)*/
