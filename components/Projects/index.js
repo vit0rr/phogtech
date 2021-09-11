@@ -38,7 +38,7 @@ export default function Projects() {
                         <div className="card-body">
                             <h5 className="card-title"><u>Musa da Mente</u></h5>
                             <p className="card-text">Site que gera e envia relatório de personalidade baseado em suas respostas.</p>
-                            <a href="https://github.com/Phog-Tech/musa-da-mente" className="btn btn-warning">Visitar</a>
+                            <a href="https://github.com/Phog-Tech/musa-da-mente" target="_blank" className="btn btn-warning">Visitar</a>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ export default function Projects() {
                         <div className="card-body">
                             <h5 className="card-title"><u>Brilho da Infância</u></h5>
                             <p className="card-text">Loja Virtual onde configuramos a venda, domínio e produtos.</p>
-                            <a href="https://www.brilhodainfancia.com.br/" className="btn btn-warning">Visitar</a>
+                            <a href="https://www.brilhodainfancia.com.br/" target="_blank" className="btn btn-warning">Visitar</a>
                         </div>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ export default function Projects() {
                         <div className="card-body">
                             <h5 className="card-title"><u>Agro bom Comércio</u></h5>
                             <p className="card-text">Loja desenvolvida do zero com HTML, CSS, JavaScript e PHP.</p>
-                            <a href="https://github.com/Phog-Tech/agro-bom-comercio" className="btn btn-warning">Visitar</a>
+                            <a href="https://github.com/Phog-Tech/agro-bom-comercio" target="_blank" className="btn btn-warning">Visitar</a>
                         </div>
                     </div>
                 </div>
