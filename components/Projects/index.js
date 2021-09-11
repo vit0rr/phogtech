@@ -23,40 +23,40 @@ export default function Projects() {
                     </div>
                 </div>
             </div>
-            <div class="row pt-2">
-                <div class="col-sm-6">
-                    <div class="card bg-0c5187 text-light">
-                        <div class="card-body">
-                            <h5 class="card-title"><u>Koisinhas da Kisy</u></h5>
-                            <p class="card-text">Loja Virtual onde além da configuração, resolvemos bugs envolvendo responsividade e funcionalidade.</p>
-                            <a href="https://www.koisinhasdakisy.com.br/" class="btn btn-warning">Visitar</a>
+            <div className="row pt-2">
+                <div className="col-sm-6">
+                    <div className="card bg-0c5187 text-light">
+                        <div className="card-body">
+                            <h5 className="card-title"><u>Koisinhas da Kisy</u></h5>
+                            <p className="card-text">Loja Virtual onde além da configuração, resolvemos bugs envolvendo responsividade e funcionalidade.</p>
+                            <a href="https://www.koisinhasdakisy.com.br/" target="_blank" className="btn btn-warning">Visitar</a>
                         </div>
                     </div>
                 </div>
-                <div id="paddingTopCards" class="col-sm-6">
-                    <div class="card bg-0c5187 text-light">
-                        <div class="card-body">
-                            <h5 class="card-title"><u>Musa da Mente</u></h5>
-                            <p class="card-text">Site que gera e envia relatório de personalidade baseado em suas respostas.</p>
-                            <a href="https://github.com/Phog-Tech/musa-da-mente" class="btn btn-warning">Visitar</a>
+                <div id="paddingTopCards" className="col-sm-6">
+                    <div className="card bg-0c5187 text-light">
+                        <div className="card-body">
+                            <h5 className="card-title"><u>Musa da Mente</u></h5>
+                            <p className="card-text">Site que gera e envia relatório de personalidade baseado em suas respostas.</p>
+                            <a href="https://github.com/Phog-Tech/musa-da-mente" className="btn btn-warning">Visitar</a>
                         </div>
                     </div>
                 </div>
-                <div id="paddingTopCards" class="col-sm-6 pt-1">
-                    <div class="card bg-0c5187 text-light">
-                        <div class="card-body">
-                            <h5 class="card-title"><u>Brilho da Infância</u></h5>
-                            <p class="card-text">Loja Virtual onde configuramos a venda, domínio e produtos.</p>
-                            <a href="https://www.brilhodainfancia.com.br/" class="btn btn-warning">Visitar</a>
+                <div id="paddingTopCards" className="col-sm-6 pt-1">
+                    <div className="card bg-0c5187 text-light">
+                        <div className="card-body">
+                            <h5 className="card-title"><u>Brilho da Infância</u></h5>
+                            <p className="card-text">Loja Virtual onde configuramos a venda, domínio e produtos.</p>
+                            <a href="https://www.brilhodainfancia.com.br/" className="btn btn-warning">Visitar</a>
                         </div>
                     </div>
                 </div>
-                <div id="paddingTopCards" class="col-sm-6 pt-1">
-                    <div class="card bg-0c5187 text-light">
-                        <div class="card-body">
-                            <h5 class="card-title"><u>Agro bom Comércio</u></h5>
-                            <p class="card-text">Loja desenvolvida do zero com HTML, CSS, JavaScript e PHP.</p>
-                            <a href="https://github.com/Phog-Tech/agro-bom-comercio" class="btn btn-warning">Visitar</a>
+                <div id="paddingTopCards" className="col-sm-6 pt-1">
+                    <div className="card bg-0c5187 text-light">
+                        <div className="card-body">
+                            <h5 className="card-title"><u>Agro bom Comércio</u></h5>
+                            <p className="card-text">Loja desenvolvida do zero com HTML, CSS, JavaScript e PHP.</p>
+                            <a href="https://github.com/Phog-Tech/agro-bom-comercio" className="btn btn-warning">Visitar</a>
                         </div>
                     </div>
                 </div>
