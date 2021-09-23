@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import MakerLauch from '../../assets/img/maker_launch.svg'
+import MakerLauch from '../../assets/img/undraw_Shared_workspace_re_3gsu.svg'
 
 export default function Projects() {
     return (

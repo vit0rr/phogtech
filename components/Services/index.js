@@ -21,7 +21,7 @@ export default function Services() {
                                 Para informações de contato clique <Link href="/contato"><a className="text-warning">aqui</a></Link>
                             </p>
                         </div>
-                        <div className="col-md-4 centerImg"><img src="https://raw.githubusercontent.com/vit0rr/phogtech/bcdd673ea4632befda48b5c86c2494dffe4b6a29/assets/img/services.svg" width="500px"
+                        <div className="col-md-4 centerImg"><img src="https://raw.githubusercontent.com/vit0rr/phogtech/main/assets/img/flame-brain-research.png" width="500px"
                             className="d-none d-sm-block d-sm-none d-md-block img-fluid"
                             id="responsiveImgServices" />
                         </div>
